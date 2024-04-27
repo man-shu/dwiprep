@@ -11,3 +11,6 @@
     - called by `smriprep.workflows.anatomical.init_anat_fit_wf`
     - called by `smriprep.workflows.anatomical.init_anat_preproc_wf`
 - need to do `export DOCKER_DEFAULT_PLATFORM=linux/amd64` on macOS before build
+- eddy step under dwi preproc needs `PhaseEncodingDirection`
+    - provided via .json sidecar eg `sub-7014_dwi.json`
+    - **not available for standford data**
