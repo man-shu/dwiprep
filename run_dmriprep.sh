@@ -1,0 +1,1 @@
+docker run -it --rm -v /storage/store3/work/haggarwa/diffusion/bids_data:/data:ro -v result:/out 251cb87b94f5 /data /out/out participant --verbose --fs-no-reconall
