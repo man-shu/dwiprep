@@ -1,5 +1,5 @@
 # Getting dMRIPrep working
-- my fork on dMWRIPrep: https://github.com/man-shu/dmriprep
+- my fork on dMRIPrep: https://github.com/man-shu/dmriprep
 - had to remove all python package restrictions + removed default versioning system
 - now runs on python 3.12 and latest deps
 - external dep versions are still the same
