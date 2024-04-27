@@ -1,4 +1,4 @@
-# Getting dMWRIPrep working
+# Getting dMRIPrep working
 - my fork on dMWRIPrep: https://github.com/man-shu/dmriprep
 - had to remove all python package restrictions + removed default versioning system
 - now runs on python 3.12 and latest deps
