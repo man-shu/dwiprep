@@ -1,8 +1,16 @@
 # Getting dMRIPrep working
+
+### TLDR
 - my fork on dMRIPrep: https://github.com/man-shu/dmriprep
+- current working docker image: `docker pull haggarwa/dmriprep:dwi_wo_fsrecon`
+- does anatomical, diffusion preproc without freesurfer recon
+
+### Mods
 - had to remove all python package restrictions + removed default versioning system
 - now runs on python 3.12 and latest deps
 - external dep versions are still the same
+
+### Notes
 - anat-only pipeline works without installing FreeSurfer
 - doing dwi preproc needs FreeSurfer at least for one step
     - the `mri_robust_template` function in FS
